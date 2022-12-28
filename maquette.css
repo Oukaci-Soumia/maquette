@@ -1,0 +1,232 @@
+:root{
+    --primary:hsl(171, 66%, 44%);
+    --secondry:hsl(233, 100%, 69%);
+    --shadow1:hsl(210, 10%, 33%);
+    --shadow2:hsl(201, 11%, 66%);
+}
+body{
+    background-image: url("./images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    margin: 0;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2, h3{
+    font-family:'Bai Jamjuree', sans-serif ;
+    font-weight: 600;
+}
+p{
+    color: grey;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+
+}
+.second{
+    text-align: center; 
+    width: 50%;  
+ 
+}
+.forth{
+    text-align: center; 
+    width: 48%;  
+}
+
+.first {
+    font-size: 2rem;
+}
+.logo{
+    width: 100px;
+}
+.ordi{
+    width: 60%;
+    margin-left: -25%;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+    margin: 15px;
+    padding: 15px 35px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font: 1rem;
+
+}
+.ios{
+    background-color: var(--primary);
+    box-shadow: 0px 6px 0px rgb(77, 209, 165);
+}
+.mac{
+    background-color: var(--secondry);
+    box-shadow: 0px 6px 0px rgb(159, 79, 233);
+}
+.colonne{
+   
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    
+    width: 25%;
+}
+
+section{
+    margin-bottom: 5%;
+}
+h3{
+    margin-top: 5%;
+}
+p{
+    margin-top: 0%;
+}
+
+.sixth{
+    width: 50%;
+    text-align: center;
+}
+.devices{
+    margin-top: 50px;
+width: 100%;
+}
+
+ 
+.premierd,.deuxiemed,.troisiemed{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+}
+.regroupe1 img{
+    width: 50px;
+}
+.regroupe2{
+   gap: 30px;
+}
+.regroupe2 div{
+    margin-right: 10%;
+    align-items: center;
+
+}
+.regroupe1{
+    margin-bottom: 10%;
+   gap: 30px;
+}
+.last{
+    width: 50%;
+    text-align: center;
+}
+.ios1{
+    background-color: var(--primary);
+    box-shadow: 0px 3px 0px rgb(77, 209, 165);
+}
+.mac1{
+    background-color: var(--secondry);
+    box-shadow: 0px 3px 0px rgb(159, 79, 233);
+}
+button{
+  
+    cursor: pointer;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   padding: 30px 100px;
+   background-color: rgb(226, 226, 226);
+    
+}
+
+
+.logo1{
+    width: 5%; 
+    height: 5%; 
+ 
+}
+.reseau{
+    width: 10% ;
+    gap: 15px ;
+}
+.logo2{
+    width: 25px ;
+height: 25px;
+}
+footer > div{
+  
+    display: flex;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contenu  {
+    display: flex;
+    align-items: start;
+}
+.contenu1{
+   column-gap: 100px;
+}
+.contenu2{
+    column-gap: 70px;
+}
+.para{
+     color: rgb(117, 116, 116);
+     
+}
+
+@media screen and (max-width: 700px) {
+    .ordre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   .colonne{
+    margin: 0;
+  align-items: center;
+  text-align: center;
+   } 
+   .ordi{
+   margin: 0%;
+   }
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.contenu{
+    align-items: center;
+    gap: 0;
+}
+.contenu1{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.contenu2{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+  .regroupe1, .regroupe2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }  
+  .buttons, .buttons1{
+    display: flex;
+    flex-direction: column;
+  }
+}
